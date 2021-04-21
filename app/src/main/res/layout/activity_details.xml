@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".DetailsActivity">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgBg"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:scaleType="fitXY"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/bg" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/place_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:fontFamily="@font/roboto_medium"-->
+<!--        android:text="Rừng xanh"-->
+<!--        android:textColor="@android:color/background_dark"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imgBg" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView5"-->
+<!--        android:layout_width="10dp"-->
+<!--        android:layout_height="10dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/place_name"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/place_name"-->
+<!--        app:srcCompat="@drawable/star" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView7"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="2dp"-->
+<!--        android:layout_marginRight="2dp"-->
+<!--        android:text="4.5"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView5"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/imageView5"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView5" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView9"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:fontFamily="@font/roboto_bold"-->
+<!--        android:text="Thời gian mở cửa:"-->
+<!--        android:textColor="#044363"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/place_name"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/place_name" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView10"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="4dp"-->
+<!--        android:fontFamily="@font/roboto_bold"-->
+<!--        android:text="Giá ra vào:"-->
+<!--        android:textColor="#044363"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/textView9"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView9" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/time"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:text="8h - 17h"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/textView9"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView9"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textView9" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/price"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:text="50.000 Đ"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/textView10"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView10"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textView10" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView13"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:fontFamily="@font/roboto_bold"-->
+<!--        android:text="Ảnh"-->
+<!--        android:textColor="@android:color/background_dark"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/textView10"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView10" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/anh1"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:scaleType="fitXY"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/textView13"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView13"-->
+<!--        app:srcCompat="@drawable/img1" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/anh2"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginStart="4dp"-->
+<!--        android:layout_marginLeft="4dp"-->
+<!--        android:scaleType="fitXY"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/anh1"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/anh1"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/anh1"-->
+<!--        app:srcCompat="@drawable/img2" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/anh3"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginStart="4dp"-->
+<!--        android:layout_marginLeft="4dp"-->
+<!--        android:scaleType="fitXY"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/anh2"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/anh2"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/anh2"-->
+<!--        app:srcCompat="@drawable/img3" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView10"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.95"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:srcCompat="@drawable/like" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView14"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:fontFamily="@font/roboto_bold"-->
+<!--        android:text="Thông tin"-->
+<!--        android:textColor="@android:color/background_dark"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/anh1" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/desc"-->
+<!--        android:layout_width="331dp"-->
+<!--        android:layout_height="101dp"-->
+<!--        android:text="A nice clean Trip planner and booking #Android app by using the #Android studio, where you can show up all destination points On the home page like make my trip and gobibo. On the details page shows it's the price, rating, book your trip, and more. It's having a great #UI/UX"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/textView14"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView14"-->
+<!--        app:layout_constraintVertical_bias="0.232" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgBg"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/place_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Rừng xanh"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="190dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginRight="2dp"
+                    android:text="4.5" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    app:srcCompat="@drawable/star" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Thời gian mở cửa:"
+                    android:textColor="#044363" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:text="8h - 17h" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Giá ra vào:"
+                    android:textColor="#044363" />
+
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="50.000 Đ" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/image"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/anh1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="33dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="16dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/anh2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="4dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/anh3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="4dp"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+            <!--            <ImageView-->
+            <!--                android:id="@+id/imageView10"-->
+            <!--                android:layout_width="50dp"-->
+            <!--                android:layout_height="50dp"-->
+            <!--                android:layout_marginEnd="8dp"-->
+            <!--                android:layout_marginRight="8dp"-->
+            <!--                android:layout_marginBottom="16dp" />-->
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/info"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:layout_marginTop="8dp"
+                    android:text="Nơi tọa lạc: "
+                    android:textColor="#044363" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/ic_baseline_location_on_24"
+                    tool:ignore="VectorDrawableCompat" />
+                <TextView
+                    android:id="@+id/area_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="here"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="16dp"
+                android:text="A nice clean Trip planner and booking #Android app by using the #Android studio, where you can show up all destination points On the home page like make my trip and gobibo. On the details page shows it's the price, rating, book your trip, and more. It's having a great #UI/UX"
+                android:textColor="@android:color/background_dark" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btnlike"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="like"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/like" />
+</RelativeLayout>
